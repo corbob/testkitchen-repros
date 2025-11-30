@@ -1,0 +1,37 @@
+I, [2025-11-30T11:55:54.094603 #29420]  INFO -- default-gusztavvargadr-windows-server-core: -----> Creating <default-gusztavvargadr-windows-server-core>...
+E, [2025-11-30T11:55:54.101953 #29420] ERROR -- default-gusztavvargadr-windows-server-core: Create failed on instance <default-gusztavvargadr-windows-server-core>.
+E, [2025-11-30T11:55:54.102393 #29420] ERROR -- default-gusztavvargadr-windows-server-core: ------Exception-------
+E, [2025-11-30T11:55:54.102729 #29420] ERROR -- default-gusztavvargadr-windows-server-core: Class: NoMethodError
+E, [2025-11-30T11:55:54.103087 #29420] ERROR -- default-gusztavvargadr-windows-server-core: Message: undefined method `map' for "bridge: \"Default Switch\"":String
+E, [2025-11-30T11:55:54.103409 #29420] ERROR -- default-gusztavvargadr-windows-server-core: ----------------------
+E, [2025-11-30T11:55:54.103694 #29420] ERROR -- default-gusztavvargadr-windows-server-core: ------Backtrace-------
+E, [2025-11-30T11:55:54.104016 #29420] ERROR -- default-gusztavvargadr-windows-server-core: (erb):88:in `block in render_template'
+E, [2025-11-30T11:55:54.104290 #29420] ERROR -- default-gusztavvargadr-windows-server-core: (erb):87:in `each'
+E, [2025-11-30T11:55:54.104603 #29420] ERROR -- default-gusztavvargadr-windows-server-core: (erb):87:in `render_template'
+E, [2025-11-30T11:55:54.104940 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/erb.rb:905:in `eval'
+E, [2025-11-30T11:55:54.105127 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/erb.rb:905:in `result'
+E, [2025-11-30T11:55:54.105253 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:406:in `render_template'
+E, [2025-11-30T11:55:54.105396 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:280:in `block in create_vagrantfile'
+E, [2025-11-30T11:55:54.105477 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:280:in `open'
+E, [2025-11-30T11:55:54.105559 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:280:in `create_vagrantfile'
+E, [2025-11-30T11:55:54.105719 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:117:in `create'
+E, [2025-11-30T11:55:54.106078 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:495:in `public_send'
+E, [2025-11-30T11:55:54.106183 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:495:in `block in perform_action'
+E, [2025-11-30T11:55:54.106326 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:560:in `block in synchronize_or_call'
+E, [2025-11-30T11:55:54.106555 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:558:in `synchronize'
+E, [2025-11-30T11:55:54.106916 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:558:in `synchronize_or_call'
+E, [2025-11-30T11:55:54.107070 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:524:in `block in action'
+E, [2025-11-30T11:55:54.107386 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/benchmark.rb:296:in `measure'
+E, [2025-11-30T11:55:54.107487 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:523:in `action'
+E, [2025-11-30T11:55:54.107839 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:495:in `perform_action'
+E, [2025-11-30T11:55:54.108180 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:404:in `create_action'
+E, [2025-11-30T11:55:54.108347 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:392:in `block (2 levels) in transition_to'
+E, [2025-11-30T11:55:54.108587 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/lifecycle_hooks.rb:47:in `run_with_hooks'
+E, [2025-11-30T11:55:54.108696 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:391:in `block in transition_to'
+E, [2025-11-30T11:55:54.109003 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:390:in `each'
+E, [2025-11-30T11:55:54.109376 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:390:in `transition_to'
+E, [2025-11-30T11:55:54.109660 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:128:in `create'
+E, [2025-11-30T11:55:54.109978 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command.rb:195:in `public_send'
+E, [2025-11-30T11:55:54.110300 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command.rb:195:in `run_action_in_thread'
+E, [2025-11-30T11:55:54.110621 #29420] ERROR -- default-gusztavvargadr-windows-server-core: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command.rb:166:in `block (2 levels) in run_action'
+E, [2025-11-30T11:55:54.110878 #29420] ERROR -- default-gusztavvargadr-windows-server-core: ----End Backtrace-----

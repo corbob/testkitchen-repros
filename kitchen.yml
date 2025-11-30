@@ -1,0 +1,18 @@
+---
+driver:
+  name: vagrant
+  provider: hyperv
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: gusztavvargadr/windows-server-core
+
+verifier:
+  name: pester
+
+suites:
+  - name: default
+    run_list:
+    attributes:

@@ -1,0 +1,95 @@
+I, [2025-11-30T11:55:47.108277 #29420]  INFO -- Kitchen: -----> Starting Test Kitchen (v3.9.0)
+I, [2025-11-30T11:55:54.094069 #29420]  INFO -- Kitchen: -----> Creating <default-gusztavvargadr-windows-server-core>...
+E, [2025-11-30T11:55:54.115041 #29420] ERROR -- Kitchen: ------Exception-------
+E, [2025-11-30T11:55:54.115359 #29420] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2025-11-30T11:55:54.115466 #29420] ERROR -- Kitchen: Message: 1 actions failed.
+>>>>>>     Failed to complete #create action: [undefined method `map' for "bridge: \"Default Switch\"":String] on default-gusztavvargadr-windows-server-core
+E, [2025-11-30T11:55:54.115523 #29420] ERROR -- Kitchen: ----------------------
+E, [2025-11-30T11:55:54.115570 #29420] ERROR -- Kitchen: ------Backtrace-------
+E, [2025-11-30T11:55:54.115614 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command.rb:181:in `report_errors'
+E, [2025-11-30T11:55:54.115655 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command.rb:172:in `run_action'
+E, [2025-11-30T11:55:54.115697 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command/action.rb:35:in `block in call'
+E, [2025-11-30T11:55:54.115739 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/benchmark.rb:296:in `measure'
+E, [2025-11-30T11:55:54.115782 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command/action.rb:33:in `call'
+E, [2025-11-30T11:55:54.115823 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/cli.rb:52:in `perform'
+E, [2025-11-30T11:55:54.115864 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/cli.rb:198:in `block (2 levels) in <class:CLI>'
+E, [2025-11-30T11:55:54.115904 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/thor-1.4.0/lib/thor/command.rb:28:in `run'
+E, [2025-11-30T11:55:54.116376 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/thor-1.4.0/lib/thor/invocation.rb:127:in `invoke_command'
+E, [2025-11-30T11:55:54.116454 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/thor-1.4.0/lib/thor.rb:538:in `dispatch'
+E, [2025-11-30T11:55:54.116501 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/thor-1.4.0/lib/thor/base.rb:584:in `start'
+E, [2025-11-30T11:55:54.116574 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/bin/kitchen:11:in `block in <top (required)>'
+E, [2025-11-30T11:55:54.116621 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/errors.rb:183:in `with_friendly_errors'
+E, [2025-11-30T11:55:54.116663 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/bin/kitchen:11:in `<top (required)>'
+E, [2025-11-30T11:55:54.116703 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/bin/kitchen:472:in `load'
+E, [2025-11-30T11:55:54.116743 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/bin/kitchen:472:in `<main>'
+E, [2025-11-30T11:55:54.116782 #29420] ERROR -- Kitchen: ----End Backtrace-----
+E, [2025-11-30T11:55:54.116853 #29420] ERROR -- Kitchen: -Composite Exception--
+E, [2025-11-30T11:55:54.116917 #29420] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2025-11-30T11:55:54.117096 #29420] ERROR -- Kitchen: Message: Failed to complete #create action: [undefined method `map' for "bridge: \"Default Switch\"":String] on default-gusztavvargadr-windows-server-core
+E, [2025-11-30T11:55:54.117391 #29420] ERROR -- Kitchen: ----------------------
+E, [2025-11-30T11:55:54.117742 #29420] ERROR -- Kitchen: ------Backtrace-------
+E, [2025-11-30T11:55:54.117992 #29420] ERROR -- Kitchen: (erb):88:in `block in render_template'
+E, [2025-11-30T11:55:54.118279 #29420] ERROR -- Kitchen: (erb):87:in `each'
+E, [2025-11-30T11:55:54.118443 #29420] ERROR -- Kitchen: (erb):87:in `render_template'
+E, [2025-11-30T11:55:54.118718 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/erb.rb:905:in `eval'
+E, [2025-11-30T11:55:54.118961 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/erb.rb:905:in `result'
+E, [2025-11-30T11:55:54.119299 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:406:in `render_template'
+E, [2025-11-30T11:55:54.119463 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:280:in `block in create_vagrantfile'
+E, [2025-11-30T11:55:54.119739 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:280:in `open'
+E, [2025-11-30T11:55:54.120114 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:280:in `create_vagrantfile'
+E, [2025-11-30T11:55:54.120454 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:117:in `create'
+E, [2025-11-30T11:55:54.120827 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:495:in `public_send'
+E, [2025-11-30T11:55:54.120986 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:495:in `block in perform_action'
+E, [2025-11-30T11:55:54.121086 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:560:in `block in synchronize_or_call'
+E, [2025-11-30T11:55:54.121163 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:558:in `synchronize'
+E, [2025-11-30T11:55:54.121288 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:558:in `synchronize_or_call'
+E, [2025-11-30T11:55:54.121477 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:524:in `block in action'
+E, [2025-11-30T11:55:54.121708 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/benchmark.rb:296:in `measure'
+E, [2025-11-30T11:55:54.121854 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:523:in `action'
+E, [2025-11-30T11:55:54.121908 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:495:in `perform_action'
+E, [2025-11-30T11:55:54.121951 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:404:in `create_action'
+E, [2025-11-30T11:55:54.122257 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:392:in `block (2 levels) in transition_to'
+E, [2025-11-30T11:55:54.122409 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/lifecycle_hooks.rb:47:in `run_with_hooks'
+E, [2025-11-30T11:55:54.122668 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:391:in `block in transition_to'
+E, [2025-11-30T11:55:54.122864 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:390:in `each'
+E, [2025-11-30T11:55:54.123114 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:390:in `transition_to'
+E, [2025-11-30T11:55:54.123255 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:128:in `create'
+E, [2025-11-30T11:55:54.123573 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command.rb:195:in `public_send'
+E, [2025-11-30T11:55:54.123835 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command.rb:195:in `run_action_in_thread'
+E, [2025-11-30T11:55:54.123970 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command.rb:166:in `block (2 levels) in run_action'
+E, [2025-11-30T11:55:54.124223 #29420] ERROR -- Kitchen: ----End Backtrace-----
+E, [2025-11-30T11:55:54.124472 #29420] ERROR -- Kitchen: ---Nested Exception---
+E, [2025-11-30T11:55:54.124775 #29420] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2025-11-30T11:55:54.125018 #29420] ERROR -- Kitchen: Message: Failed to complete #create action: [undefined method `map' for "bridge: \"Default Switch\"":String]
+E, [2025-11-30T11:55:54.125173 #29420] ERROR -- Kitchen: ----------------------
+E, [2025-11-30T11:55:54.125492 #29420] ERROR -- Kitchen: ------Backtrace-------
+E, [2025-11-30T11:55:54.125659 #29420] ERROR -- Kitchen: (erb):88:in `block in render_template'
+E, [2025-11-30T11:55:54.125910 #29420] ERROR -- Kitchen: (erb):87:in `each'
+E, [2025-11-30T11:55:54.126211 #29420] ERROR -- Kitchen: (erb):87:in `render_template'
+E, [2025-11-30T11:55:54.126443 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/erb.rb:905:in `eval'
+E, [2025-11-30T11:55:54.126713 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/erb.rb:905:in `result'
+E, [2025-11-30T11:55:54.127029 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:406:in `render_template'
+E, [2025-11-30T11:55:54.127265 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:280:in `block in create_vagrantfile'
+E, [2025-11-30T11:55:54.127577 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:280:in `open'
+E, [2025-11-30T11:55:54.127880 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:280:in `create_vagrantfile'
+E, [2025-11-30T11:55:54.128192 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/kitchen-vagrant-2.1.2/lib/kitchen/driver/vagrant.rb:117:in `create'
+E, [2025-11-30T11:55:54.128512 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:495:in `public_send'
+E, [2025-11-30T11:55:54.128821 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:495:in `block in perform_action'
+E, [2025-11-30T11:55:54.129112 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:560:in `block in synchronize_or_call'
+E, [2025-11-30T11:55:54.129412 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:558:in `synchronize'
+E, [2025-11-30T11:55:54.129718 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:558:in `synchronize_or_call'
+E, [2025-11-30T11:55:54.130041 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:524:in `block in action'
+E, [2025-11-30T11:55:54.130339 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/3.1.0/benchmark.rb:296:in `measure'
+E, [2025-11-30T11:55:54.130640 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:523:in `action'
+E, [2025-11-30T11:55:54.130928 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:495:in `perform_action'
+E, [2025-11-30T11:55:54.131218 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:404:in `create_action'
+E, [2025-11-30T11:55:54.131538 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:392:in `block (2 levels) in transition_to'
+E, [2025-11-30T11:55:54.131833 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/lifecycle_hooks.rb:47:in `run_with_hooks'
+E, [2025-11-30T11:55:54.132038 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:391:in `block in transition_to'
+E, [2025-11-30T11:55:54.132177 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:390:in `each'
+E, [2025-11-30T11:55:54.132256 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:390:in `transition_to'
+E, [2025-11-30T11:55:54.132420 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/instance.rb:128:in `create'
+E, [2025-11-30T11:55:54.132670 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command.rb:195:in `public_send'
+E, [2025-11-30T11:55:54.132952 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command.rb:195:in `run_action_in_thread'
+E, [2025-11-30T11:55:54.133090 #29420] ERROR -- Kitchen: C:/opscode/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/test-kitchen-3.9.0/lib/kitchen/command.rb:166:in `block (2 levels) in run_action'
+E, [2025-11-30T11:55:54.133354 #29420] ERROR -- Kitchen: ----End Backtrace-----
