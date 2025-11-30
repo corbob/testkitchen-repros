@@ -1,0 +1,177 @@
+I, [2025-11-30T13:17:08.012907 #11080]  INFO -- default-windows: -----> Cleaning up any prior instances of <default-windows>
+I, [2025-11-30T13:17:08.013739 #11080]  INFO -- default-windows: -----> Destroying <default-windows>...
+I, [2025-11-30T13:17:08.015241 #11080]  INFO -- default-windows: Finished destroying <default-windows> (0m0.00s).
+I, [2025-11-30T13:17:08.015989 #11080]  INFO -- default-windows: -----> Testing <default-windows>
+I, [2025-11-30T13:17:08.016400 #11080]  INFO -- default-windows: -----> Creating <default-windows>...
+I, [2025-11-30T13:17:11.324150 #11080]  INFO -- default-windows: Bringing machine 'default' up with 'hyperv' provider...
+I, [2025-11-30T13:17:11.356204 #11080]  INFO -- default-windows: ==> default: Verifying Hyper-V is enabled...
+I, [2025-11-30T13:17:11.922620 #11080]  INFO -- default-windows: ==> default: Verifying Hyper-V is accessible...
+I, [2025-11-30T13:17:13.001389 #11080]  INFO -- default-windows: ==> default: Importing a Hyper-V instance
+I, [2025-11-30T13:17:13.001592 #11080]  INFO -- default-windows:     default: Creating and registering the VM...
+I, [2025-11-30T13:17:20.325204 #11080]  INFO -- default-windows:     default: Successfully imported VM
+I, [2025-11-30T13:17:24.881447 #11080]  INFO -- default-windows:     default: Configuring the VM...
+I, [2025-11-30T13:17:26.889794 #11080]  INFO -- default-windows:     default: Setting VM Enhanced session transport type to disabled/default (VMBus)
+I, [2025-11-30T13:17:29.072925 #11080]  INFO -- default-windows: ==> default: Starting the machine...
+I, [2025-11-30T13:17:30.640936 #11080]  INFO -- default-windows: ==> default: Waiting for the machine to report its IP address...
+I, [2025-11-30T13:17:30.641068 #11080]  INFO -- default-windows:     default: Timeout: 120 seconds
+I, [2025-11-30T13:17:57.778865 #11080]  INFO -- default-windows:     default: IP: 172.17.104.147
+I, [2025-11-30T13:17:57.779011 #11080]  INFO -- default-windows: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2025-11-30T13:18:04.535355 #11080]  INFO -- default-windows:     default: WinRM address: 172.17.104.147:5985
+I, [2025-11-30T13:18:04.535508 #11080]  INFO -- default-windows:     default: WinRM username: vagrant
+I, [2025-11-30T13:18:04.535719 #11080]  INFO -- default-windows:     default: WinRM execution_time_limit: PT2H
+I, [2025-11-30T13:18:04.535835 #11080]  INFO -- default-windows:     default: WinRM transport: negotiate
+I, [2025-11-30T13:18:24.059548 #11080]  INFO -- default-windows: ==> default: Machine booted and ready!
+I, [2025-11-30T13:18:26.850500 #11080]  INFO -- default-windows: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2025-11-30T13:18:42.773348 #11080]  INFO -- default-windows: [WinRM] Established
+I, [2025-11-30T13:18:42.784239 #11080]  INFO -- default-windows: Vagrant instance <default-windows> created.
+I, [2025-11-30T13:18:42.785979 #11080]  INFO -- default-windows: Finished creating <default-windows> (1m34.77s).
+I, [2025-11-30T13:18:42.786306 #11080]  INFO -- default-windows: -----> Converging <default-windows>...
+I, [2025-11-30T13:18:43.016670 #11080]  INFO -- default-windows: Preparing files for transfer
+I, [2025-11-30T13:18:43.016984 #11080]  INFO -- default-windows: Preparing dna.json
+I, [2025-11-30T13:18:43.018630 #11080]  INFO -- default-windows: Policyfile, Berksfile, cookbooks/, or metadata.rb not found so Chef Infra Client will run, but do nothing. Is this intended?
+I, [2025-11-30T13:18:43.028613 #11080]  INFO -- default-windows: Removing non-cookbook files before transfer
+I, [2025-11-30T13:18:43.031701 #11080]  INFO -- default-windows: Preparing validation.pem
+I, [2025-11-30T13:18:43.033271 #11080]  INFO -- default-windows: Preparing client.rb
+I, [2025-11-30T13:18:45.121510 #11080]  INFO -- default-windows: -----> Installing Chef install only if missing package
+I, [2025-11-30T13:18:45.122204 #11080]  INFO -- default-windows: Downloading package from https://packages.chef.io/files/stable/chef/18.8.54/windows/11/chef-client-18.8.54-1-x64.msi
+I, [2025-11-30T13:19:03.885510 #11080]  INFO -- default-windows: Download complete.
+I, [2025-11-30T13:19:05.417905 #11080]  INFO -- default-windows: Successfully verified C:\Users\vagrant\AppData\Local\Temp\chef-client-18.8.54-1-x64.msi
+I, [2025-11-30T13:19:05.418747 #11080]  INFO -- default-windows: Installing Chef package C:\Users\vagrant\AppData\Local\Temp\chef-client-18.8.54-1-x64.msi
+I, [2025-11-30T13:20:51.909995 #11080]  INFO -- default-windows: Installation complete
+I, [2025-11-30T13:20:53.096483 #11080]  INFO -- default-windows: Transferring files to <default-windows>
+I, [2025-11-30T13:21:06.474791 #11080]  INFO -- default-windows: +---------------------------------------------+
+I, [2025-11-30T13:21:06.476412 #11080]  INFO -- default-windows: [32mΓ£ö[0m 2 product licenses accepted.
+I, [2025-11-30T13:21:06.477494 #11080]  INFO -- default-windows: +---------------------------------------------+
+I, [2025-11-30T13:21:08.990488 #11080]  INFO -- default-windows: Chef Infra Client, version 18.8.54
+I, [2025-11-30T13:21:08.991604 #11080]  INFO -- default-windows: Patents: https://www.chef.io/patents
+I, [2025-11-30T13:21:08.992222 #11080]  INFO -- default-windows: Infra Phase starting
+I, [2025-11-30T13:21:13.237621 #11080]  INFO -- default-windows: Creating a new client identity for default-windows using the validator key.
+I, [2025-11-30T13:21:14.556278 #11080]  INFO -- default-windows: Resolving cookbooks for run list: []
+I, [2025-11-30T13:21:14.557069 #11080]  INFO -- default-windows: Synchronizing cookbooks:
+I, [2025-11-30T13:21:14.557638 #11080]  INFO -- default-windows: Installing cookbook gem dependencies:
+I, [2025-11-30T13:21:14.558271 #11080]  INFO -- default-windows: Compiling cookbooks...
+I, [2025-11-30T13:21:17.359590 #11080]  INFO -- default-windows: Loading Chef InSpec profile files:
+I, [2025-11-30T13:21:17.360218 #11080]  INFO -- default-windows: Loading Chef InSpec input files:
+I, [2025-11-30T13:21:17.361066 #11080]  INFO -- default-windows: Loading Chef InSpec waiver files:
+I, [2025-11-30T13:21:17.361717 #11080]  INFO -- default-windows: [2025-11-30T21:21:17+00:00] WARN: Node default-windows has an empty run list.
+I, [2025-11-30T13:21:17.362196 #11080]  INFO -- default-windows: Converging 0 resources
+I, [2025-11-30T13:21:17.362930 #11080]  INFO -- default-windows: 
+I, [2025-11-30T13:21:17.363548 #11080]  INFO -- default-windows: Running handlers:
+I, [2025-11-30T13:21:17.364032 #11080]  INFO -- default-windows: Running handlers complete
+I, [2025-11-30T13:21:17.364535 #11080]  INFO -- default-windows: Infra Phase complete, 0/0 resources updated in 08 seconds
+I, [2025-11-30T13:21:17.374048 #11080]  INFO -- default-windows: Downloading files from <default-windows>
+I, [2025-11-30T13:21:17.379785 #11080]  INFO -- default-windows: Finished converging <default-windows> (2m34.59s).
+I, [2025-11-30T13:21:17.380178 #11080]  INFO -- default-windows: -----> Setting up <default-windows>...
+I, [2025-11-30T13:21:17.381814 #11080]  INFO -- default-windows: Finished setting up <default-windows> (0m0.00s).
+I, [2025-11-30T13:21:20.634771 #11080]  INFO -- default-windows: Forcing web requests to allow TLS v1.2 (Required for requests to Chocolatey.org)
+I, [2025-11-30T13:21:20.635549 #11080]  INFO -- default-windows: Getting latest version of the Chocolatey package for download.
+I, [2025-11-30T13:21:20.636096 #11080]  INFO -- default-windows: Not using proxy.
+I, [2025-11-30T13:21:20.636616 #11080]  INFO -- default-windows: Getting Chocolatey from https://community.chocolatey.org/api/v2/package/chocolatey/2.5.1.
+I, [2025-11-30T13:21:20.637082 #11080]  INFO -- default-windows: Downloading https://community.chocolatey.org/api/v2/package/chocolatey/2.5.1 to C:\Users\vagrant\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip
+I, [2025-11-30T13:21:20.637680 #11080]  INFO -- default-windows: Not using proxy.
+I, [2025-11-30T13:21:20.638210 #11080]  INFO -- default-windows: Extracting C:\Users\vagrant\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\vagrant\AppData\Local\Temp\chocolatey\chocoInstall
+I, [2025-11-30T13:21:21.969531 #11080]  INFO -- default-windows: Installing Chocolatey on the local machine
+I, [2025-11-30T13:21:22.974846 #11080]  INFO -- default-windows: Creating ChocolateyInstall as an environment variable (targeting 'Machine') 
+I, [2025-11-30T13:21:22.975662 #11080]  INFO -- default-windows:   Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
+I, [2025-11-30T13:21:22.976480 #11080]  INFO -- default-windows: WARNING: It's very likely you will need to close and reopen your shell 
+I, [2025-11-30T13:21:22.977089 #11080]  INFO -- default-windows:   before you can use choco.
+I, [2025-11-30T13:21:22.977544 #11080]  INFO -- default-windows: Restricting write permissions to Administrators
+I, [2025-11-30T13:21:22.978196 #11080]  INFO -- default-windows: We are setting up the Chocolatey package repository.
+I, [2025-11-30T13:21:22.978727 #11080]  INFO -- default-windows: The packages themselves go to 'C:\ProgramData\chocolatey\lib'
+I, [2025-11-30T13:21:22.979175 #11080]  INFO -- default-windows:   (i.e. C:\ProgramData\chocolatey\lib\yourPackageName).
+I, [2025-11-30T13:21:22.979778 #11080]  INFO -- default-windows: A shim file for the command line goes to 'C:\ProgramData\chocolatey\bin'
+I, [2025-11-30T13:21:22.980256 #11080]  INFO -- default-windows:   and points to an executable in 'C:\ProgramData\chocolatey\lib\yourPackageName'.
+I, [2025-11-30T13:21:22.980836 #11080]  INFO -- default-windows: 
+I, [2025-11-30T13:21:22.981388 #11080]  INFO -- default-windows: Creating Chocolatey CLI folders if they do not already exist.
+I, [2025-11-30T13:21:22.981834 #11080]  INFO -- default-windows: 
+I, [2025-11-30T13:21:22.982336 #11080]  INFO -- default-windows: chocolatey.nupkg file not installed in lib.
+I, [2025-11-30T13:21:22.982846 #11080]  INFO -- default-windows:  Attempting to locate it from bootstrapper.
+I, [2025-11-30T13:21:22.983289 #11080]  INFO -- default-windows: PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+I, [2025-11-30T13:21:23.631903 #11080]  INFO -- default-windows: WARNING: Not setting tab completion: Profile file does not exist at 
+I, [2025-11-30T13:21:23.633031 #11080]  INFO -- default-windows: 'C:\Users\vagrant\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+I, [2025-11-30T13:21:25.477278 #11080]  INFO -- default-windows: Chocolatey CLI (choco.exe) is now ready.
+I, [2025-11-30T13:21:25.478597 #11080]  INFO -- default-windows: You can call choco from anywhere, command line or PowerShell by typing choco.
+I, [2025-11-30T13:21:25.479645 #11080]  INFO -- default-windows: Run choco /? for a list of functions.
+I, [2025-11-30T13:21:25.480177 #11080]  INFO -- default-windows: You may need to shut down and restart PowerShell and/or consoles
+I, [2025-11-30T13:21:25.480983 #11080]  INFO -- default-windows:  first prior to using choco.
+I, [2025-11-30T13:21:25.481534 #11080]  INFO -- default-windows: Ensuring Chocolatey commands are on the path
+I, [2025-11-30T13:21:25.482553 #11080]  INFO -- default-windows: Ensuring chocolatey.nupkg is in the lib folder
+I, [2025-11-30T13:21:25.483193 #11080]  INFO -- default-windows: Chocolatey v2.5.1
+I, [2025-11-30T13:21:25.483834 #11080]  INFO -- default-windows: Installing the following packages:
+I, [2025-11-30T13:21:25.485097 #11080]  INFO -- default-windows: pester
+I, [2025-11-30T13:21:25.485628 #11080]  INFO -- default-windows: By installing, you accept licenses for the packages.
+I, [2025-11-30T13:21:26.362447 #11080]  INFO -- default-windows: Downloading package from source 'https://community.chocolatey.org/api/v2/'
+I, [2025-11-30T13:21:26.364361 #11080]  INFO -- default-windows: Progress: Downloading pester 5.7.1... %Progress: Downloading pester 5.7.1... 1%Progress: Downloading pester 5.7.1... 1%Progress: Downloading pester 5.7.1... 2%Progress: Downloading pester 5.7.1... 2%Progress: Downloading pester 5.7.1... 2%Progress: Downloading pester 5.7.1... 3%Progress: Downloading pester 5.7.1... 3%Progress: Downloading pester 5.7.1... 4%Progress: Downloading pester 5.7.1... 4%Progress: Downloading pester 5.7.1... 4%Progress: Downloading pester 5.7.1... 5%Progress: Downloading pester 5.7.1... 5%Progress: Downloading pester 5.7.1... 6%Progress: Downloading pester 5.7.1... 6%Progress: Downloading pester 5.7.1... 6%Progress: Downloading pester 5.7.1... 7%Progress: Downloading pester 5.7.1... 7%Progress: Downloading pester 5.7.1... 8%Progress: Downloading pester 5.7.1... 8%Progress: Downloading pester 5.7.1... 8%Progress: Downloading pester 5.7.1... 9%Progress: Downloading pester 5.7.1... 9%Progress: Downloading pester 5.7.1... 10%Progress: Downloading pester 5.7.1... 10%Progress: Downloading pester 5.7.1... 10%Progress: Downloading pester 5.7.1... 11%Progress: Downloading pester 5.7.1... 11%Progress: Downloading pester 5.7.1... 12%Progress: Downloading pester 5.7.1... 12%Progress: Downloading pester 5.7.1... 12%Progress: Downloading pester 5.7.1... 13%Progress: Downloading pester 5.7.1... 13%Progress: Downloading pester 5.7.1... 14%Progress: Downloading pester 5.7.1... 14%Progress: Downloading pester 5.7.1... 14%Progress: Downloading pester 5.7.1... 15%Progress: Downloading pester 5.7.1... 15%Progress: Downloading pester 5.7.1... 16%Progress: Downloading pester 5.7.1... 16%Progress: Downloading pester 5.7.1... 17%Progress: Downloading pester 5.7.1... 18%Progress: Downloading pester 5.7.1... 19%Progress: Downloading pester 5.7.1... 21%Progress: Downloading pester 5.7.1... 22%Progress: Downloading pester 5.7.1... 23%Progress: Downloading pester 5.7.1... 24%Progress: Downloading pester 5.7.1... 26%Progress: Downloading pester 5.7.1... 27%Progress: Downloading pester 5.7.1... 28%Progress: Downloading pester 5.7.1... 29%Progress: Downloading pester 5.7.1... 31%Progress: Downloading pester 5.7.1... 32%Progress: Downloading pester 5.7.1... 33%Progress: Downloading pester 5.7.1... 34%Progress: Downloading pester 5.7.1... 35%Progress: Downloading pester 5.7.1... 37%
+I, [2025-11-30T13:21:27.126831 #11080]  INFO -- default-windows: 
+I, [2025-11-30T13:21:27.128062 #11080]  INFO -- default-windows: Pester v5.7.1 [Approved] - Possibly broken
+I, [2025-11-30T13:21:27.128765 #11080]  INFO -- default-windows: Pester package files install completed. Performing other installation steps.
+I, [2025-11-30T13:21:27.512883 #11080]  INFO -- default-windows: PATH environment variable does not have C:\Program Files\WindowsPowerShell\Modules\Pester\5.7.1\bin in it. Adding...
+I, [2025-11-30T13:21:27.513568 #11080]  INFO -- default-windows: Environment Vars (like PATH) have changed. Close/reopen your shell to
+I, [2025-11-30T13:21:27.514325 #11080]  INFO -- default-windows:  see the changes (or in powershell/cmd.exe just type `refreshenv`).
+I, [2025-11-30T13:21:27.515298 #11080]  INFO -- default-windows:  The install of Pester was successful.
+I, [2025-11-30T13:21:27.515874 #11080]  INFO -- default-windows:   Software install location not explicitly set, it could be in package or
+I, [2025-11-30T13:21:27.516415 #11080]  INFO -- default-windows:   default install location of installer.
+I, [2025-11-30T13:21:27.516981 #11080]  INFO -- default-windows: 
+I, [2025-11-30T13:21:27.517660 #11080]  INFO -- default-windows: Chocolatey installed 1/1 packages. 
+I, [2025-11-30T13:21:27.518159 #11080]  INFO -- default-windows:  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+I, [2025-11-30T13:21:27.524824 #11080]  INFO -- default-windows: -----> Verifying <default-windows>...
+I, [2025-11-30T13:21:27.526983 #11080]  INFO -- default-windows: Preparing files for transfer
+I, [2025-11-30T13:21:27.528225 #11080]  INFO -- default-windows: Preparing to copy files from 'C:/Users/corbob/AppData/Local/chef/gem/ruby/3.1.0/gems/kitchen-pester-1.2.0/lib/support/modules/PesterUtil' to the SUT.
+I, [2025-11-30T13:21:27.528553 #11080]  INFO -- default-windows: Moving C:/Users/corbob/AppData/Local/chef/gem/ruby/3.1.0/gems/kitchen-pester-1.2.0/lib/support/modules/PesterUtil to D:/tmp/default-windows-sandbox-20251130-11080-z9mnfl/modules
+I, [2025-11-30T13:21:27.534447 #11080]  INFO -- default-windows: Preparing to copy specified folders to D:/tmp/default-windows-sandbox-20251130-11080-z9mnfl/modules.
+I, [2025-11-30T13:21:27.534929 #11080]  INFO -- default-windows: Preparing to copy files from  'D:/code/testkitchen-repros/tests/integration/default' to the SUT.
+I, [2025-11-30T13:21:27.535143 #11080]  INFO -- default-windows: Moving D:/code/testkitchen-repros/tests/integration/default to D:/tmp/default-windows-sandbox-20251130-11080-z9mnfl/suites
+I, [2025-11-30T13:21:28.550544 #11080]  INFO -- default-windows: Running as 'win-fns6gabmjqj\vagrant'...
+I, [2025-11-30T13:21:28.555671 #11080]  INFO -- default-windows:  - PowerShell 5.1.17763.6893
+I, [2025-11-30T13:21:28.575227 #11080]  INFO -- default-windows: Transferring files to <default-windows>
+I, [2025-11-30T13:21:29.076357 #11080]  INFO -- default-windows: Preparing the SUT and Pester dependencies...
+I, [2025-11-30T13:21:29.076531 #11080]  INFO -- default-windows: Resolving Downloads path from config.
+I, [2025-11-30T13:21:29.076682 #11080]  INFO -- default-windows:   resolving remote source's absolute path.
+I, [2025-11-30T13:21:29.076797 #11080]  INFO -- default-windows:   './PesterTestResults.xml' is a relative path, resolving to: $env:TEMP\verifier/./PesterTestResults.xml
+I, [2025-11-30T13:21:29.076919 #11080]  INFO -- default-windows:   Destination: ./testresults/PesterTestResults.xml
+I, [2025-11-30T13:21:29.077151 #11080]  INFO -- default-windows:   Directory ./testresults seems to exist.
+I, [2025-11-30T13:21:29.077268 #11080]  INFO -- default-windows: Bootstrapping environment without PowerShellGet Provider...
+I, [2025-11-30T13:21:29.077547 #11080]  INFO -- default-windows: Registering a new PowerShellGet Repository
+I, [2025-11-30T13:21:29.978129 #11080]  INFO -- default-windows: Running as 'win-fns6gabmjqj\vagrant'...
+I, [2025-11-30T13:21:29.978912 #11080]  INFO -- default-windows:  - PowerShell 5.1.17763.6893
+I, [2025-11-30T13:21:31.375861 #11080]  INFO -- default-windows: Running as 'win-fns6gabmjqj\vagrant'...
+I, [2025-11-30T13:21:31.376856 #11080]  INFO -- default-windows:  - PowerShell 5.1.17763.6893
+I, [2025-11-30T13:21:32.938586 #11080]  INFO -- default-windows: Invoke Pester with v5.7.1 Configuration.
+I, [2025-11-30T13:21:35.567748 #11080]  INFO -- default-windows: [95mPester v5.7.1[0m
+I, [2025-11-30T13:21:35.568497 #11080]  INFO -- default-windows: [95m
+I, [2025-11-30T13:21:35.569232 #11080]  INFO -- default-windows: [95mStarting discovery in 1 files.[0m
+I, [2025-11-30T13:21:35.569789 #11080]  INFO -- default-windows: [91m[-] Discovery in C:\Users\vagrant\AppData\Local\Temp\verifier\suites\default\tests.Tests.ps1 failed with:[0m
+I, [2025-11-30T13:21:35.570334 #11080]  INFO -- default-windows: [91mSystem.Management.Automation.RuntimeException: Here's an error
+I, [2025-11-30T13:21:35.570813 #11080]  INFO -- default-windows: [91mat <ScriptBlock>, C:\Users\vagrant\AppData\Local\Temp\verifier\suites\default\tests.Tests.ps1: line 6
+I, [2025-11-30T13:21:35.571343 #11080]  INFO -- default-windows: [91mat New-Block, C:\Program Files\WindowsPowerShell\Modules\Pester\5.7.1\Pester.psm1: line 808
+I, [2025-11-30T13:21:35.571949 #11080]  INFO -- default-windows: [91mat Describe, C:\Program Files\WindowsPowerShell\Modules\Pester\5.7.1\Pester.psm1: line 10214
+I, [2025-11-30T13:21:35.572425 #11080]  INFO -- default-windows: [91mat <ScriptBlock>, C:\Users\vagrant\AppData\Local\Temp\verifier\suites\default\tests.Tests.ps1: line 1
+I, [2025-11-30T13:21:35.572947 #11080]  INFO -- default-windows: [91mat <ScriptBlock>, C:\Program Files\WindowsPowerShell\Modules\Pester\5.7.1\Pester.psm1: line 3090
+I, [2025-11-30T13:21:35.573560 #11080]  INFO -- default-windows: [91mat Invoke-File, C:\Program Files\WindowsPowerShell\Modules\Pester\5.7.1\Pester.psm1: line 3099
+I, [2025-11-30T13:21:35.574214 #11080]  INFO -- default-windows: [91mat Invoke-BlockContainer, C:\Program Files\WindowsPowerShell\Modules\Pester\5.7.1\Pester.psm1: line 3008
+I, [2025-11-30T13:21:35.574723 #11080]  INFO -- default-windows: [91mat Discover-Test, C:\Program Files\WindowsPowerShell\Modules\Pester\5.7.1\Pester.psm1: line 1480
+I, [2025-11-30T13:21:35.575204 #11080]  INFO -- default-windows: [91mat Invoke-Test, C:\Program Files\WindowsPowerShell\Modules\Pester\5.7.1\Pester.psm1: line 2474
+I, [2025-11-30T13:21:35.575805 #11080]  INFO -- default-windows: [91mat Invoke-Pester<End>, C:\Program Files\WindowsPowerShell\Modules\Pester\5.7.1\Pester.psm1: line 4960
+I, [2025-11-30T13:21:35.576379 #11080]  INFO -- default-windows: [91mat <ScriptBlock>, C:\Users\vagrant\AppData\Local\Temp\verifier\kitchen_cmd.ps1: line 121
+I, [2025-11-30T13:21:35.576829 #11080]  INFO -- default-windows: [91mat <ScriptBlock>, <No file>: line 1[0m
+I, [2025-11-30T13:21:35.577310 #11080]  INFO -- default-windows: [95mDiscovery found 1 tests in 677ms.[0m
+I, [2025-11-30T13:21:35.577791 #11080]  INFO -- default-windows: [95mRunning tests.[0m
+I, [2025-11-30T13:21:35.586702 #11080]  INFO -- default-windows: [95m
+I, [2025-11-30T13:21:35.595109 #11080]  INFO -- default-windows: [95mRunning tests from 'tests.Tests.ps1'[0m
+I, [2025-11-30T13:21:36.765472 #11080]  INFO -- default-windows: [92mDescribing Tests[0m
+I, [2025-11-30T13:21:37.515355 #11080]  INFO -- default-windows: [32m  [+] Runs this test[0m[90m 600ms (438ms|162ms)[0m
+I, [2025-11-30T13:21:38.626022 #11080]  INFO -- default-windows: [91m[-] tests.Tests.ps1 failed with:[0m
+I, [2025-11-30T13:21:38.626761 #11080]  INFO -- default-windows: [91mRuntimeException: Here's an error
+I, [2025-11-30T13:21:38.628371 #11080]  INFO -- default-windows: [91mat <ScriptBlock>, C:\Users\vagrant\AppData\Local\Temp\verifier\suites\default\tests.Tests.ps1:6[0m
+I, [2025-11-30T13:21:38.628944 #11080]  INFO -- default-windows: [97mTests completed in 3.46s[0m
+I, [2025-11-30T13:21:38.629614 #11080]  INFO -- default-windows: [32mTests Passed: 1, [0m[90mFailed: 0, [0m[90mSkipped: 0, [0m[90mInconclusive: 0, [0m[37m[0m[90mNotRun: 0[0m
+I, [2025-11-30T13:21:38.630160 #11080]  INFO -- default-windows: [91mContainer failed: 1[0m
+I, [2025-11-30T13:21:38.630712 #11080]  INFO -- default-windows: [91m  - C:\Users\vagrant\AppData\Local\Temp\verifier\suites\default\tests.Tests.ps1[0m
+I, [2025-11-30T13:21:39.233566 #11080]  INFO -- default-windows: Downloading files from <default-windows>
+I, [2025-11-30T13:21:39.663879 #11080]  INFO -- default-windows: Finished verifying <default-windows> (0m12.14s).
+I, [2025-11-30T13:21:39.664896 #11080]  INFO -- default-windows: -----> Destroying <default-windows>...
+I, [2025-11-30T13:21:49.852873 #11080]  INFO -- default-windows: ==> default: Stopping the machine...
+I, [2025-11-30T13:21:53.004913 #11080]  INFO -- default-windows: ==> default: Deleting the machine...
+I, [2025-11-30T13:21:55.129770 #11080]  INFO -- default-windows: Vagrant instance <default-windows> destroyed.
+I, [2025-11-30T13:21:55.130844 #11080]  INFO -- default-windows: Finished destroying <default-windows> (0m15.46s).
+I, [2025-11-30T13:21:55.131381 #11080]  INFO -- default-windows: Finished testing <default-windows> (4m47.12s).
