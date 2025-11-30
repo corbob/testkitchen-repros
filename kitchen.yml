@@ -7,10 +7,30 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: gusztavvargadr/windows-server-core
+  - name: windows
+    driver:
+      box: chocolatey/test-environment
+
+transport:
+  name: winrm
+  elevated: true
+  username: vagrant
+  password: vagrant
+  elevated_username: vagrant
+  elevated_password: vagrant
+
+# Install Chocolatey and Pester
+lifecycle:
+  pre_verify:
+    - remote: |
+        irm ch0.co/go|iex
+        choco install pester --source https://community.chocolatey.org/api/v2/ --confirm
 
 verifier:
   name: pester
+  remove_builtin_pester: false
+  remove_builtin_powershellget: false
+  skip_pester_install: true
 
 suites:
   - name: default
